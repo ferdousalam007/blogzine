@@ -114,3 +114,31 @@ h6 {
 .side-area h5 {
     font-size: 23px;
 }
+/* main-area styles */
+.load-button .btn-outline-primary{
+    background: #2163e81a;
+    padding: 10px 25px;
+}
+.load-button .btn-outline-primary:hover{
+    background: #2163e8;
+}
+/* slider-area styles */
+.tns-controls,button {
+    display: none;
+}
+.slider-linkitems a{
+    color: #595d69;
+    text-decoration: none;
+}
+.slider-badge a{
+    color:#fff;
+    text-decoration: none;
+}
+.card-img-overlay {
+    position: absolute;
+    bottom: 15px;
+    top: 45%;
+    left: 0;
+    padding: 1rem;
+    
+}
