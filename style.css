@@ -114,32 +114,111 @@ h6 {
 .side-area h5 {
     font-size: 23px;
 }
+
 /* main-area styles */
-.load-button .btn-outline-primary{
+.load-button .btn-outline-primary {
     background: #2163e81a;
     padding: 10px 25px;
 }
-.load-button .btn-outline-primary:hover{
+
+.load-button .btn-outline-primary:hover {
     background: #2163e8;
 }
+
 /* slider-area styles */
-.tns-controls,button {
+.tns-controls,
+button {
     display: none;
 }
-.slider-linkitems a{
+
+.slider-linkitems a {
     color: #595d69;
     text-decoration: none;
 }
-.slider-badge a{
-    color:#fff;
+
+.slider-badge a {
+    color: #fff;
     text-decoration: none;
 }
+
 .card-img-overlay {
     position: absolute;
     bottom: 15px;
     top: 45%;
     left: 0;
     padding: 1rem;
-    
+
 }
+
 /* <!-- Social widget styles --> */
+.side-social {
+    padding: 15px 0 10px 0;
+}
+
+.social-area .side-social i {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.social-area .side-social h6 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.social-area .side-social p {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.bg-gradient-ins {
+    background: radial-gradient(circle at 20% 130%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+/* trendind-topic styles */
+
+.tren-img {
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+.tren-img::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0000009d;
+}
+
+.trendind-topic .topic {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.trendind-topic .topic h5 {
+    color: #fff;
+    position: relative;
+    display: inline;
+    z-index: 1;
+}
+.trendind-topic .topic h5::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 0px;
+    background: #fff;
+    transition: .3s;
+}
+.trendind-topic .topic:hover h5::before{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
