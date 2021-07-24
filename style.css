@@ -7,7 +7,9 @@ body {
     line-height: 1.5;
     color: #595d69;
 }
-
+a{
+    text-decoration: none;
+}
 
 h1,
 h2,
@@ -215,10 +217,13 @@ button {
     background: #fff;
     transition: .3s;
 }
-.trendind-topic .topic:hover h5::before{
+.trendind-topic .tren-img:hover .topic h5::before{
     left: 0;
     bottom: 0;
     width: 100%;
     height: 2px;
     background: #fff;
 }
+
+
+
